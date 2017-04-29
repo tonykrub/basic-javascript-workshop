@@ -1,3 +1,5 @@
+
+
 /*1)Write a function that takes a string and returns the first 
 character of the string. Test your function on a few inputs, 
 including the empty string. */
@@ -14,7 +16,6 @@ function lastLetter (str) {
     return str[str.length -1];
 };
 //console.log(lastLetter("Irene"));
-
 
 
 /* 3)Write a function that takes a string and a number, and 
@@ -80,7 +81,7 @@ function repeatedStr (str, num) {
     for (var i = 0; i < num; i++) {
         arr.push(str);
     }
-    return arr.join(", "); // if we code 'return arr' only, instead of this. we will get an array. but to join an array, we use 'join'
+    return arr.join(", "); // if we code 'return arr' only, instead of this, we will get an array. but to join an array, we use 'join'
 }
 //console.log(repeatedStr("Tony", 9));
 
@@ -227,7 +228,7 @@ function uniqueValue(arr1, arr2) {
     }
     return unique;
 }
-//console.log(uniqueValue([1, 5, 6, 99, 95], [1, 5, 95, 999, 599]));
+console.log(uniqueValue([1, 5, 6, 99, 95], [1, 5, 95, 999, 599]));
 
 
 /* 16) Mini Challenge: write a function that takes an array and
@@ -244,9 +245,9 @@ function mappedArr(arr, func) {
     return array;
 }
 
-console.log(mappedArr([1,2,3], function(n) { //'n' here is the place holder because we are defining the function here. so it does not have to be the real value, meaning we can put anything here. we are not calling it here ( because we have already called it above earlier). Basically it is arr[i], but we can not put arr[i] here, we have to put 'n' here because it is the way javaScript is designed.
-    return n * 1;
-}));
+// console.log(mappedArr([1,2,3], function(n) { //'n' here is the place holder because we are defining the function here. so it does not have to be the real value, meaning we can put anything here. we are not calling it here ( because we have already called it above earlier). Basically it is arr[i], but we can not put arr[i] here, we have to put 'n' here because it is the way javaScript is designed.
+//     return n + 1;
+// }));
 
 
 
